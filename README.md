@@ -1,39 +1,25 @@
-# Student Management System
+# To-Do List Web App
 
-A console-based Python application integrated with MySQL to manage student records efficiently. Designed for basic CRUD (Create, Read, Update, Delete) operations in a simple command-line interface.
+A simple, responsive web application to manage your daily tasks. You can add new tasks, mark them as complete, and delete them. Your list is saved in your browser using localStorage.
 
 ## Features
 
-- Add new student records
-- View all existing student records
-- Auto-incrementing ID for each student
-- Simple menu-driven interface
-- Modular code with separate database configuration
+- Add tasks
+- Mark tasks as completed
+- Delete tasks
+- Save tasks in browser storage (localStorage)
 
-## Technologies Used
+## Tech Stack
 
-- Python 3
-- MySQL
-- MySQL Connector for Python
+- HTML
+- CSS
+- JavaScript
 
 ## Getting Started
 
-### Prerequisites
-- Python 3 installed
-- MySQL server installed
-- Install MySQL connector:
-```bash
-pip install mysql-connector-python
-```
-
-### Database Setup
-1. Create a MySQL database named `student_db`.
-2. Replace the credentials in `db_config.py` with your own.
-3. Run the app:
-```bash
-python main.py
-```
+1. Download or clone this repository.
+2. Open `index.html` in your browser to run the app.
 
 ## Author
 
-Dhanalakshmi G
+Dhanalakshmi
